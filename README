@@ -11,7 +11,7 @@ Copy app.py or download it from source repository
 Configure database credentials and parameters
 
 3. Start Web Server
-FLASK_APP=sample.py flask run --host=0.0.0.0
+FLASK_APP=Sample.py flask run --host=0.0.0.0
 
 4. Test
 Open any browser and type the following URLs
