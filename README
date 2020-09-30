@@ -1,0 +1,19 @@
+Following are the steps required to make this application work on a linux environment.
+
+1.  Ensure python and its dependecies are installed using the given commands.
+apt-get install -y python python-setuptools python-dev build-essential python-pip python-mysqldb
+
+2.  Install and Configure Web Server
+Install Python Flask dependency
+pip install flask
+pip install flask-mysql
+Copy app.py or download it from source repository
+Configure database credentials and parameters
+
+3. Start Web Server
+FLASK_APP=sample.py flask run --host=0.0.0.0
+
+4. Test
+Open any browser and type the following URLs
+http://<IPaddress>:8080     => Welcome, this a sample web application
+http://<IPaddress>:8080/try   => Please clone and try the given sample
